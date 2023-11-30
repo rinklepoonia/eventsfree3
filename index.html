@@ -22,12 +22,13 @@
                             <img src="./assets/images/logo.png" alt="logo">
                             <p class="logo m-0 fs-20">Events <span class="logo1 fs-20">Free</span></p>
                         </div>
-                        <label for="menuIcon">
+                        <div class="menuIcon">
                             <span></span>
                             <span></span>
                             <span></span>
-                        </label>
-                        <ul class=" class= d-flex align-items-center gap-5 justify-content-center menuList pl-0 ">
+                        </div>
+
+                        <ul class=" class= d-flex align-items-center gap-5 justify-content-center menuList pl-0 mb-0">
                             <li><a href="" class=links>HOME</a></li>
                             <li><a href="" class=links>EVENTS</a></li>
                             <li><a href="" class=links>FEED</a></li>
@@ -38,12 +39,15 @@
                 </nav>
             </div>
         </div>
+
+
         <div class="py-50">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-4 col-12">
-                        <div class="d-flex justify-content-end">
-                            <img class="w-100 p-3" src="./assets/images/smileing-man1.png" alt="smileing-man1">
+                        <div class="d-flex justify-content-center">
+                            <img class="w- 100 p-3 h-408 w-401" src="./assets/images/smileing-man1.png"
+                                alt="smileing-man1">
                         </div>
                     </div>
                     <div class="col-xl-8 col-12 p-3">
@@ -57,11 +61,12 @@
                             eget aliquet.</p>
                         <p class="event1">Following Events :</p>
 
-                        <div class="d-md-flex  d-block  gap-3">
-                            <div class="d-flex box justify-content-center mx-w-322 mx-auto mb-3">
-                                <img class="w- 100 p-2" src="./assets/images/pink-blueLight-inClub-2.png"
+                        <div class="d-flex flex-wrap d-block gap-3 align-items-center justify-content-center">
+
+                            <div class="d-flex box justify-content-center  mx-w-322 w-100 mx-auto">
+                                <img class="w- 100 " src="./assets/images/pink-blueLight-inClub-2.png"
                                     alt="pink-blueLight-inClub-2">
-                                <div class="d-flex flex-direction-col ps-2 pt-4">
+                                <div class="d-flex flex-direction-col ps-2 pt-2">
                                     <h4 class="heading-1">Augue etiam</h4>
                                     <p class="text-1">Quis et id urna sagittis. Enim lacus, felis, libero sed nisl
                                         vitae
@@ -70,12 +75,9 @@
                                     </p>
                                 </div>
                             </div>
-
-
-                            <!-- <div class="d-flex gap-3 "> -->
-                            <div class=" d-flex box justify-content-center mx-w-322 mx-auto mb-3">
-                                <img class="w- 100 p-2" src="./assets/images/rising-hands2.png" alt="rising-hands2">
-                                <div class="d-flex flex-direction-col ps-2 pt-4">
+                            <div class=" d-flex box justify-content-center mx-w-322 w-100 mx-auto">
+                                <img class="w- 100 " src="./assets/images/rising-hands2.png" alt="rising-hands2">
+                                <div class="d-flex flex-direction-col ps-2 pt-2">
                                     <h5 class="heading-1 ">Augue etiam</h5>
                                     <p class="text-1">Quis et id urna sagittis. Enim lacus, felis, libero sed nisl
                                         vitae
@@ -85,10 +87,8 @@
                                 </div>
 
                             </div>
-                            <!-- </div> -->
-
                             <div class="d-flex align-items-center justify-content-center">
-                                <div class="box1">
+                                <div class="box1 d-flex flex-direction-col justify-content-center align-items-center">
                                     <p class="nmber1 mb-0">+15</p>
                                     <p class="more mb-0">more</p>
                                 </div>
@@ -109,9 +109,9 @@
                     <div class="col-lg-6 col-12">
                         <div class="d-flex">
                             <img src="./assets/images/girlWith-black-jacket.png" alt="girlWith-black-jacket">
-                            <div class="d-flex flex-direction-col align-items-center ms-4">
-                                <h3 class="heading2 mb-0">Username</h3>
-                                <p class="text1">Post event name</p>
+                            <div class="d-flex flex-direction-col align-items-center">
+                                <h3 class="heading2 ms-2 mb-0">Username</h3>
+                                <p class="text1 ms-4">Post event name</p>
                             </div>
                         </div>
                         <h4 class="heading2 mx-width-516 mt-5">Fusce adipiscing nunc et tellus eu, tristique sodales sit
@@ -191,14 +191,14 @@
 
                 <!--======================section-3=======================-->
                 <div class="border d-flex justify-content-between p-1">
-                    <div class="d-flex gap-2">
+                    <div class="d-flex gap-2 w-100">
                         <img src="./assets/images/white-topGirl.png" alt="white-topGirl">
                         <input type="text" id="comment" placeholder="Write your comment here..."
                             class="coment d-none d-md-block w-100">
-                        <input type="text" id="comment1" placeholder="comment..."
-                            class="coment d-md-none d-block w-100">
+                        <input type="text" id="comment1" placeholder="comment" class="coment d-md-none d-block w-100">
                     </div>
-                    <button class="comt-btn">Post Comment</button>
+                    <button class="comt-btn d-none d-md-block ">Post Comment</button>
+                    <button class="comt-btn dblock d-md-none">Post</button>
 
                 </div>
 
@@ -260,13 +260,14 @@
                     </div>
                 </div>
                 <div>
-                    <div class="d-flex mt-4">
+                    <div class="d-flex mt-4 w-100">
                         <div class="pe-3">
                             <img src="./assets/images/formal-dressGirl3.png" alt="formal-dressGirl3">
                         </div>
                         <div class="bg-color1 ps-3">
                             <p class="heading-3 pt-2 mb-2">Username</p>
-                            <p class="text1 mx-w-1126">Senectus gravida sed interdum pretium at quam morbi. Nunc, libero
+                            <p class="text1 mx-w- 1126">Senectus gravida sed interdum pretium at quam morbi. Nunc,
+                                libero
                                 nam
                                 cursus sem faucibus urna. Hendrerit vulputate in
                                 duis donec sit. Ut vitae dolor fringilla urna eget aliquet.
@@ -299,9 +300,9 @@
                         <div class="col-lg-6 col-12">
                             <div class="d-flex">
                                 <img src="./assets/images/girlWith-black-jacket.png" alt="girlWith-black-jacket">
-                                <div class="d-flex flex-direction-col align-items-center ms-4">
-                                    <h3 class="heading2 mb-0">Username</h3>
-                                    <p class="text1">Post event name</p>
+                                <div class="d-flex flex-direction-col align-items-center">
+                                    <h3 class="heading2 ms-2 mb-0">Username</h3>
+                                    <p class="text1 ms-4">Post event name</p>
                                 </div>
                             </div>
                             <h4 class="heading2 mx-width-516 mt-4">Fusce adipiscing nunc et tellus eu, tristique
@@ -356,7 +357,7 @@
                                                     fill="black" />
                                             </g>
                                             <defs>
-                                                <clipPath id="clip0_2_1686">
+                                                <clipPath id="clip0_2_1234">
                                                     <rect width="24" height="24" fill="white" />
                                                 </clipPath>
                                             </defs>
@@ -395,9 +396,9 @@
                     <div class="col-lg-6 col-12">
                         <div class="d-flex">
                             <img src="./assets/images/girlWith-black-jacket.png" alt="girlWith-black-jacket">
-                            <div class="d-flex flex-direction-col align-items-center ms-4">
-                                <h3 class="heading2 mb-0">Username</h3>
-                                <p class="text1">Post event name</p>
+                            <div class="d-flex flex-direction-col align-items-center">
+                                <h3 class="heading2 ms-2 mb-0">Username</h3>
+                                <p class="text1 ms-4">Post event name</p>
                             </div>
                         </div>
                         <h4 class="heading2 mx-width-516 mt-4">Fusce adipiscing nunc et tellus eu, tristique
@@ -452,7 +453,7 @@
                                                 fill="black" />
                                         </g>
                                         <defs>
-                                            <clipPath id="clip0_2_1686">
+                                            <clipPath id="clip0_2_1256">
                                                 <rect width="24" height="24" fill="white" />
                                             </clipPath>
                                         </defs>
@@ -490,9 +491,9 @@
                         <div class="col-lg-6 col-12">
                             <div class="d-flex">
                                 <img src="./assets/images/girlWith-black-jacket.png" alt="girlWith-black-jacket">
-                                <div class="d-flex flex-direction-col align-items-center ms-4">
-                                    <h3 class="heading2 mb-0">Username</h3>
-                                    <p class="text1">Post event name</p>
+                                <div class="d-flex flex-direction-col align-items-center">
+                                    <h3 class="heading2 ms-2 mb-0">Username</h3>
+                                    <p class="text1 ms-4">Post event name</p>
                                 </div>
                             </div>
                             <h4 class="heading2 mx-width-516 mt-4">Fusce adipiscing nunc et tellus eu, tristique
@@ -547,7 +548,7 @@
                                                     fill="black" />
                                             </g>
                                             <defs>
-                                                <clipPath id="clip0_2_1686">
+                                                <clipPath id="clip0_2_1267">
                                                     <rect width="24" height="24" fill="white" />
                                                 </clipPath>
                                             </defs>
@@ -586,9 +587,9 @@
                     <div class="col-lg-6 col-12">
                         <div class="d-flex">
                             <img src="./assets/images/girlWith-black-jacket.png" alt="girlWith-black-jacket">
-                            <div class="d-flex flex-direction-col align-items-center ms-4">
-                                <h3 class="heading2 mb-0">Username</h3>
-                                <p class="text1">Post event name</p>
+                            <div class="d-flex flex-direction-col align-items-center">
+                                <h3 class="heading2 ms-2 mb-0">Username</h3>
+                                <p class="text1 ms-4">Post event name</p>
                             </div>
                         </div>
                         <h4 class="heading2 mx-width-516 mt-4">Fusce adipiscing nunc et tellus eu, tristique
@@ -643,7 +644,7 @@
                                                 fill="black" />
                                         </g>
                                         <defs>
-                                            <clipPath id="clip0_2_1686">
+                                            <clipPath id="clip0_2_1278">
                                                 <rect width="24" height="24" fill="white" />
                                             </clipPath>
                                         </defs>
@@ -681,9 +682,9 @@
                         <div class="col-lg-6 col-12">
                             <div class="d-flex">
                                 <img src="./assets/images/girlWith-black-jacket.png" alt="girlWith-black-jacket">
-                                <div class="d-flex flex-direction-col align-items-center ms-4">
-                                    <h3 class="heading2 mb-0">Username</h3>
-                                    <p class="text1">Post event name</p>
+                                <div class="d-flex flex-direction-col align-items-center">
+                                    <h3 class="heading2 ms-2 mb-0">Username</h3>
+                                    <p class="text1 ms-4">Post event name</p>
                                 </div>
                             </div>
                             <h4 class="heading2 mx-width-516 mt-4">Fusce adipiscing nunc et tellus eu, tristique
@@ -738,7 +739,7 @@
                                                     fill="black" />
                                             </g>
                                             <defs>
-                                                <clipPath id="clip0_2_1686">
+                                                <clipPath id="clip0_2_1290">
                                                     <rect width="24" height="24" fill="white" />
                                                 </clipPath>
                                             </defs>
